@@ -3,6 +3,10 @@ body {
   color: #F5F5F5;
   text-align: center;
 }
+img {
+  max-width: 90%;
+  height: auto;
+}
 h1, h2 {
   color: #D4AF37;
 }
@@ -19,7 +23,8 @@ button {
   border-radius: 15px;
   padding: 15px;
   margin: 20px auto;
-  width: 320px;
+  max-width: 320px;
+  width: 90%;
 }
 .song-card h3 {
   color: #D4AF37;
